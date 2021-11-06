@@ -1,0 +1,41 @@
+.title {
+  color: map-get($map: $colorPalette, $key: "cream");
+  font-family: $lobster;
+  font-size: 5em;
+  margin: 0;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0;
+  margin: 0 auto;
+  padding: 3em 0;
+  width: 90%;
+
+  &__imgProduct {
+    width: 100%;
+  }
+}
+
+@include mediaQuerie($sm) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+    margin: 0 auto;
+    padding: 3em 0;
+    width: 90%;
+  }
+}
+
+@include mediaQuerie($md) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+    margin: 0 auto;
+    padding: 3em 0;
+    width: 90%;
+  }
+}

@@ -1,0 +1,48 @@
+.hero {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+
+  &__title {
+    color: $cream;
+    font-family: $lobster;
+    font-size: 4em;
+    text-align: center;
+    margin: 0;
+  }
+}
+
+.us {
+  margin: 0 auto;
+  width: 90%;
+  padding: 3em 0;
+
+  &__title {
+    font-family: $roboto;
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+
+  &__img {
+    margin: 0 auto;
+    background: url(./../../img/img-ourProduct.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+    width: 100%;
+  }
+
+  &__text {
+    font-family: $roboto;
+    font-weight: $weight300;
+    font-size: 1em;
+  }
+}
+
+@include mediaQuerie($sm) {
+  .us__img {
+    height: 30vh;
+  }
+}

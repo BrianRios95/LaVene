@@ -1,0 +1,73 @@
+header {
+  background-image: url(../img/home.png);
+  background-color: $darkGrey;
+  background-blend-mode: soft-light;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+
+  .navbar {
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6em;
+    position: relative;
+
+    &__logo {
+      width: 8em;
+    }
+
+    &__mainMenu {
+      list-style: none;
+
+      li {
+        display: inline-block;
+        padding: 0.6em;
+
+        a {
+          color: $white;
+          font-family: $roboto;
+          font-size: 1em;
+          font-weight: 200;
+          text-decoration: none;
+        }
+
+        .bt-suscribe {
+          color: $white;
+          font-family: $roboto;
+          border: 1px solid $cream;
+          text-decoration: none;
+          padding: 0.5em;
+        }
+      }
+    }
+  }
+}
+
+@include mediaQuerie($sm) {
+  header {
+    height: 50vh;
+
+    .navbar {
+      display: flex;
+      flex-direction: column;
+      padding-top: 2em;
+    }
+  }
+}
+
+@include mediaQuerie($md) {
+  header {
+    height: 50vh;
+
+    .navbar {
+      display: flex;
+      flex-direction: column;
+      padding-top: 2em;
+    }
+  }
+}

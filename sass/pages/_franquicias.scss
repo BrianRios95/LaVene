@@ -1,0 +1,31 @@
+.franquicias {
+  padding: 2em;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+
+  &__title {
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+
+  &__text {
+    text-align: left;
+  }
+
+  &__bt {
+    margin: 0 auto;
+    margin-top: 2em;
+    width: 15%;
+    background-color: $cream;
+    padding: 1em;
+    border-radius: 0.7em;
+
+    a {
+      font-family: "DINPro-Bold";
+      text-transform: uppercase;
+      color: $white;
+      text-decoration: none;
+    }
+  }
+}
