@@ -1,4 +1,11 @@
-@import "base/reset";
+/* @import "base/reset"; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @import "base/tipography";
 @import "utils/variables";
 @import "utils/mixins.scss";
