@@ -308,9 +308,12 @@ footer {
   margin: 0 auto;
   text-align: center; }
   .franquicias__title {
+    font-family: "Roboto";
     font-size: 2em;
     margin-bottom: 1em; }
   .franquicias__text {
+    font-family: "Roboto";
+    font-weight: 300;
     text-align: left; }
   .franquicias__bt {
     margin: 0 auto;
@@ -320,7 +323,7 @@ footer {
     padding: 1em;
     border-radius: 0.7em; }
     .franquicias__bt a {
-      font-family: "DINPro-Bold";
+      font-family: "Roboto";
       text-transform: uppercase;
       color: #f9f6f7;
       text-decoration: none; }

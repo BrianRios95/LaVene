@@ -5,11 +5,14 @@
   text-align: center;
 
   &__title {
+    font-family: "Roboto";
     font-size: 2em;
     margin-bottom: 1em;
   }
 
   &__text {
+    font-family: "Roboto";
+    font-weight: $weight300;
     text-align: left;
   }
 
@@ -22,7 +25,7 @@
     border-radius: 0.7em;
 
     a {
-      font-family: "DINPro-Bold";
+      font-family: "Roboto";
       text-transform: uppercase;
       color: $white;
       text-decoration: none;
