@@ -141,15 +141,23 @@ body {
   background: var(--white);
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 480px) {
   .navbar {
     display: flex;
     flex-direction: column;
     padding-top: 2em;
   }
 
+  .mainMenu li a {
+    font-size: 0.9em;
+  }
   .mainText {
+    font-size: 0.6em;
     text-align: center;
+  }
+
+  .imgCafe {
+    margin-top: 1em;
   }
 }
 

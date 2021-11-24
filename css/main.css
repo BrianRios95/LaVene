@@ -56,7 +56,7 @@ header {
       flex-direction: column;
       padding-top: 2em; }
       header .navbar .navbar__mainMenu li a {
-        font-size: 0.5em; } }
+        font-size: 0.7em; } }
 
 @media only screen and (max-width: 768px) {
   header {
@@ -243,7 +243,7 @@ footer {
       .productContainer .boxContainer h3 {
         font-size: 2em; }
       .productContainer .boxContainer p {
-        font-size: 1.5em; } }
+        font-size: 1em; } }
 
 @media only screen and (max-width: 768px) {
   /* HERO */
