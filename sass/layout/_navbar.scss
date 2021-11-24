@@ -50,12 +50,16 @@ header {
 
 @include mediaQuerie($sm) {
   header {
-    height: 50vh;
+    /* height: 10vh; */
 
     .navbar {
       display: flex;
       flex-direction: column;
       padding-top: 2em;
+
+      .navbar__mainMenu li a {
+        font-size: 0.8em;
+      }
     }
   }
 }

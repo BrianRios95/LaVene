@@ -144,6 +144,11 @@
 @include mediaQuerie($sm) {
   /* HERO */
 
+  .hero {
+    margin-top: 40px;
+    width: 70%;
+  }
+
   .mainContent {
     &__title {
       font-size: 1.7em;
@@ -155,7 +160,7 @@
 
     &__bt {
       margin: 0 auto;
-      width: 30%;
+      width: 50%;
     }
   }
 
@@ -203,9 +208,17 @@
 @include mediaQuerie($md) {
   /* HERO */
 
+  header {
+    height: 70vh;
+  }
+
+  .hero {
+    /* margin-top: 50px; */
+  }
+
   .mainContent {
     &__title {
-      font-size: 1.7em;
+      font-size: 2em;
     }
 
     &__text {

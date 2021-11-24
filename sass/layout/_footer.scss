@@ -29,3 +29,15 @@ footer {
     }
   }
 }
+
+@include mediaQuerie($sm) {
+  .socialIcon {
+    margin-left: 0.7em;
+  }
+}
+
+@include mediaQuerie($md) {
+  .socialIcon {
+    margin-left: 0.7em;
+  }
+}

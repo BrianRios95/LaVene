@@ -47,13 +47,15 @@ header {
           text-decoration: none;
           padding: 0.5em; }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 480px) {
   header {
-    height: 50vh; }
+    /* height: 10vh; */ }
     header .navbar {
       display: flex;
       flex-direction: column;
-      padding-top: 2em; } }
+      padding-top: 2em; }
+      header .navbar .navbar__mainMenu li a {
+        font-size: 0.8em; } }
 
 @media only screen and (max-width: 768px) {
   header {
@@ -85,6 +87,14 @@ footer {
         /* margin: 1em 0.3em; */
         margin-top: 1em;
         width: 2.5em; }
+
+@media only screen and (max-width: 480px) {
+  .socialIcon {
+    margin-left: 0.7em; } }
+
+@media only screen and (max-width: 768px) {
+  .socialIcon {
+    margin-left: 0.7em; } }
 
 /* SECCION HERO */
 .mainContent {
@@ -197,15 +207,18 @@ footer {
 .boxContainer p {
   font-family: "Roboto", sans-serif; }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 480px) {
   /* HERO */
+  .hero {
+    margin-top: 40px;
+    width: 70%; }
   .mainContent__title {
     font-size: 1.7em; }
   .mainContent__text {
     font-size: 1.3em; }
   .mainContent__bt {
     margin: 0 auto;
-    width: 30%; }
+    width: 50%; }
   /* NOSOTROS */
   .usSection {
     display: flex;
@@ -233,8 +246,12 @@ footer {
 
 @media only screen and (max-width: 768px) {
   /* HERO */
+  header {
+    height: 70vh; }
+  .hero {
+    /* margin-top: 50px; */ }
   .mainContent__title {
-    font-size: 1.7em; }
+    font-size: 2em; }
   .mainContent__text {
     font-size: 1.3em; }
   .mainContent__bt {
@@ -298,7 +315,7 @@ footer {
     font-weight: 300;
     font-size: 1em; }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 480px) {
   .us__img {
     height: 30vh; } }
 
@@ -328,6 +345,18 @@ footer {
       color: #f9f6f7;
       text-decoration: none; }
 
+@media only screen and (max-width: 480px) {
+  .franquicias__bt a {
+    font-size: 0.7em; } }
+
+@media only screen and (max-width: 768px) {
+  .franquicias__bt {
+    width: 30%; } }
+
+@media only screen and (max-width: 992px) {
+  .franquicias__bt {
+    width: 30%; } }
+
 .title {
   color: #ebdbc8;
   font-family: "Lobster", cursive;
@@ -344,7 +373,7 @@ footer {
   .gallery__imgProduct {
     width: 100%; }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 480px) {
   .gallery {
     display: grid;
     grid-template-columns: repeat(1, 1fr);

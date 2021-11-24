@@ -32,3 +32,21 @@
     }
   }
 }
+
+@include mediaQuerie($sm) {
+  .franquicias__bt a {
+    font-size: 0.7em;
+  }
+}
+
+@include mediaQuerie($md) {
+  .franquicias__bt {
+    width: 30%;
+  }
+}
+
+@include mediaQuerie($ls) {
+  .franquicias__bt {
+    width: 30%;
+  }
+}
