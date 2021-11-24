@@ -56,7 +56,7 @@ header {
       flex-direction: column;
       padding-top: 2em; }
       header .navbar .navbar__mainMenu li a {
-        font-size: 0.8em; } }
+        font-size: 0.5em; } }
 
 @media only screen and (max-width: 768px) {
   header {
