@@ -47,7 +47,7 @@ header {
           text-decoration: none;
           padding: 0.5em; }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 470px) {
   header {
     /* height: 10vh; */ }
     header .navbar {
@@ -88,7 +88,7 @@ footer {
         margin-top: 1em;
         width: 2.5em; }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 470px) {
   .socialIcon {
     margin-left: 0.7em; } }
 
@@ -207,7 +207,7 @@ footer {
 .boxContainer p {
   font-family: "Roboto", sans-serif; }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 470px) {
   /* HERO */
   .hero {
     margin-top: 40px;
@@ -315,7 +315,7 @@ footer {
     font-weight: 300;
     font-size: 1em; }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 470px) {
   .us__img {
     height: 30vh; } }
 
@@ -345,7 +345,7 @@ footer {
       color: #f9f6f7;
       text-decoration: none; }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 470px) {
   .franquicias__bt a {
     font-size: 0.7em; } }
 
@@ -373,7 +373,7 @@ footer {
   .gallery__imgProduct {
     width: 100%; }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 470px) {
   .gallery {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
